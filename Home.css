@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.home-container{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("airbus1.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo p{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px;
+    color: white;
+    text-transform: capitalize;
+}
+a:hover{
+    color: brown;
+}
+input{
+    padding: 8px 20px;
+    background: rgb(252, 179, 179);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+input:hover{
+    background-color: rgb(255, 124, 124);
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
